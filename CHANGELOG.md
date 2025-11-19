@@ -1,4 +1,4 @@
-## 7.2.2.79733 Nov 19 2025 [b6f92f941d]
+## 7.2.2.79734 Nov 19 2025 [b6f92f941d]
 - new: clipboard keytool - press ctrl-shift-k with a UUID in your keyboard to view/open it
    - supports agents, textures, sounds, animations, gtlf materials(?)
    - displays small window showing progress
