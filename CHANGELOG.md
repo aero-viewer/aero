@@ -1,3 +1,27 @@
+## 7.2.2.79738 Nov 23 2025 [bc2890d]
+#### bug fixes
+- fix anim preview priority handling and add metadata description update
+  - fix priority spinner defaulting to 0 when anim data isn't loaded
+  - spinner is blank and disabled until anim data loads
+  - "Play Locally" skips priority override when data isn't loaded,
+    using anim's baked-in priority instead
+  - UI automatically updates when anim data finished loading
+
+- implement "Update description with metadata" button in the anim preview floater
+  - generates metadata description in the same format as upload:
+    
+  `priority:X, length:Y, loop:Z, easein:A, easeout:B, frames:C, fps:D, joints:E, deform:F`
+
+## 7.2.2.79736 Nov 21 2025 [9272eeb]
+#### bug fixes
+- fix pie menu items/ordering
+
+### 7.2.2.79735 Nov 21 2025 [4366236]
+#### bug fixes
+- fix for blinn-phong texture transform inputs always being disabled  in the build menu
+- support for file metadata descriptions for uploading via @uploadasset and for uploading PBR materials
+- add optional 'delay' parameter to @takesnapshot
+
 ## 7.2.2.79734 Nov 19 2025 [b6f92f941d]
 - new: clipboard keytool - press ctrl-shift-k with a UUID in your keyboard to view/open it
    - supports agents, textures, sounds, animations, gtlf materials(?)
